@@ -1,0 +1,24 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gsr-sensor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awatson23/watson_capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awatson23/watson_capstone/issues"
+  },
+  "homepage": "https://github.com/awatson23/watson_capstone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^2.0.0",
+    "socket.io": "^4.0.0"
+  }
+}
