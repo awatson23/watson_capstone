@@ -11,3 +11,67 @@ body {
 #logo img {
     width: 100px;
 }
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #FF2C95;
+    font-size: 65px;
+    font-style: italic;
+}
+
+.subtitle {
+    margin-top: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+#mainCon {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#introCon {
+    width: 35vw;
+    height: 100vh;
+    background-color: black;
+    left: 0%;
+    position: relative;
+    
+}
+
+#introText {
+    margin: 0 auto;
+    margin-top: 40%;
+    width: 80%;
+    height: 50%;
+}
+
+#bgCon {
+    width: 65vw;
+    height: 100vh;
+    background-color: #FF9ACC;
+}
+
+#button {
+    width: 250px;
+    heighT: 50px;
+    background-color: #FF47A3;
+    border-radius: 50px;
+   /*position: absolute;*/
+    bottom: 15%;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.buttonText {
+    color: white;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
